@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    
+</head>
+<body class="">
+<main class="container-fluid">
+    <div class="col-sm-12"> 
+        <section  id="post-form">
+     
+
+            <div class="d-flex justify-content-center h3 pt-5 row">
+                Create Post
+            </div>
+                <div class="append"></div>
+            <div class="mt-5 row justify-content-center">
+                <div class="col-6 p-3">
+                   <label for="title">Post title</label> 
+                   <input type="text" class="w-100 rounded border border-secondary " id="title">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6 p-3">
+                   <label for="author">Author</label> 
+                   <input type="text" class="w-100 rounded border border-secondary" id="author">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6 p-3">
+                   <label for="body">Post content</label> 
+                   <textarea class="form-control" id="body" rows="3"></textarea>
+                </div>
+            </div>
+
+            
+            <div class="row justify-content-center">
+                <div class="col-6 p-3 font-weight-bold">
+                   <button type="submit" class=" rounded bg-white border border-info text-info w-100 " id="PostBtn">Post</button>
+                </div>
+            </div>
+
+        </section>
+
+          <table class="table table-hover mb-5">
+
+            <thead>
+
+              <tr>
+                <th>Post Title</th>
+                <th>Author</th>
+                <th>Post Content</th>
+                <th>Delete</th>
+              </tr>
+
+            </thead>
+
+            <tbody id="posts-list"></tbody>
+
+          </table>
+    </div>    
+
+
+</main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>

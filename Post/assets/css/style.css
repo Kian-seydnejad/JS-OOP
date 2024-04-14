@@ -1,0 +1,7 @@
+@font-face {
+    font-family: use;
+    src: url(../media/fonts/Baby\ Stingrays.ttf);
+}
+body{
+    font-family: use;
+}
